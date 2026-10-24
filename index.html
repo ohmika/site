@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dubbele getallen op de klok</title>
+<style>
+  :root {
+    --bg: #f5f4fa;
+    --ink: #1d1a38;
+    --muted: #4f4c73;
+    --accent: #4b3fd1;
+    --line: #d9d6ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141228;
+      --ink: #ece9ff;
+      --muted: #b0acd6;
+      --accent: #a99fff;
+      --line: #2d2950;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 56px 24px 72px;
+  }
+  header { margin-bottom: 40px; }
+  h1 {
+    margin: 0 0 14px;
+    font-size: clamp(2.2rem, 7vw, 3.4rem);
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .intro {
+    margin: 0;
+    max-width: 52ch;
+    color: var(--muted);
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    font-size: 1.1rem;
+    line-height: 1.65;
+  }
+  .entry {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    gap: 8px 28px;
+    padding: 28px 0;
+    border-top: 1px solid var(--line);
+  }
+  .entry:last-child { border-bottom: 1px solid var(--line); }
+  .time {
+    margin: 0;
+    color: var(--accent);
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    font-variant-numeric: tabular-nums;
+  }
+  h2 {
+    margin: 0 0 8px;
+    font-size: 1.15rem;
+    line-height: 1.3;
+    font-weight: 650;
+  }
+  .entry p {
+    margin: 0;
+    max-width: 62ch;
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+  @media (max-width: 560px) {
+    main { padding: 40px 20px 56px; }
+    .entry { grid-template-columns: 1fr; padding: 22px 0; }
+    .time { font-size: 2.2rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Dubbele getallen op de klok</h1>
+    <p class="intro">Zie je steeds dezelfde cijfers voor en na de dubbele punt? In de spirituele traditie geldt zo’n moment als een knipoog van je engelen, gidsen of het universum. Dit is wat elk van de 24 dubbele tijden volgens hen betekent.</p>
+  </header>
+
+  <section>
+    <article class="entry">
+      <p class="time">00:00</p>
+      <div>
+        <h2>Einde en nieuw begin</h2>
+        <p>Een cyclus loopt af en maakt plaats voor een wedergeboorte. Je staat op de drempel van een nieuwe levensfase, vooral op spiritueel vlak. Veel bronnen noemen dit ook hét moment waarop een wens wordt gehoord.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">01:01</p>
+      <div>
+        <h2>Goed nieuws en nieuwe kansen</h2>
+        <p>Er komt een bericht, een telefoontje of een kans aan waar je op wacht. Een bekende uitleg is dat iemand verliefd op je is of van je houdt: liefde is dichterbij dan je denkt.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">02:02</p>
+      <div>
+        <h2>Luister naar je intuïtie</h2>
+        <p>Je engelen geven je steun en vragen je te vertrouwen op het stemmetje in je hoofd. Houd vast aan wat je gelooft en wilt, ook als niet alles zichtbaar is.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">03:03</p>
+      <div>
+        <h2>Creativiteit en kracht</h2>
+        <p>33 is een meestergetal: alles is mogelijk en je bent niet te stoppen. Gebruik je talenten en spreek je ideeën uit. Sommige uitleggers lezen er ook een waarschuwing in om iemand in je omgeving niet blind te vertrouwen.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">04:04</p>
+      <div>
+        <h2>Stevige basis en gezondheid</h2>
+        <p>Bouw rustig en vol vertrouwen aan een vaste grond onder je voeten, met orde en volharding. Het is ook een seintje om beter voor je lichaam te zorgen en een verandering door te zetten, van binnen en van buiten.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">05:05</p>
+      <div>
+        <h2>Je staat er nooit alleen voor</h2>
+        <p>Je gids en beschermer staat naast je, zeker als je je eenzaam voelt. Er komt verandering aan: sta open voor nieuwe ervaringen en houd je voeten op de grond. Een geliefde die je goed kent kan dichtbij zijn.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">06:06</p>
+      <div>
+        <h2>Beloning en evenwicht</h2>
+        <p>Werk je aan een belangrijk project? Dan rond je het met succes af en wordt je inzet beloond. Zoek ook balans tussen geven en ontvangen, en denk net zo goed aan jezelf.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">07:07</p>
+      <div>
+        <h2>Bevestiging en openbaring</h2>
+        <p>De engelen bevestigen dat je wens uitkomt en dat je op de goede weg zit. Je krijgt een inzicht waardoor je de wereld helderder ziet. Zoek de juiste balans tussen verstand en gevoel, tussen doen en nadenken.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">08:08</p>
+      <div>
+        <h2>Overvloed en opluchting</h2>
+        <p>Zit je in een zware periode, dan val je zware lasten uiteindelijk van je af. Je oogst wat je gezaaid hebt en voorspoed is onderweg. Handel wel met overleg en let op wie en wat je vertrouwt.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">09:09</p>
+      <div>
+        <h2>Afronden en loslaten</h2>
+        <p>Sluit af wat voltooid is en laat los wat je niet meer dient, zodat een nieuw hoofdstuk kan beginnen. Je geeft veel aan anderen: neem ook tijd voor jezelf. Er ligt een hoopvolle toekomst voor je.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">10:10</p>
+      <div>
+        <h2>Vertrouwen en de eerste stap</h2>
+        <p>Een periode sluit af en er openen zich nieuwe kansen. Durf de eerste stap te zetten en ga vooruit. Een andere uitleg: iemand voelt zich aangetrokken tot jouw manier van zijn.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">11:11</p>
+      <div>
+        <h2>Spiritueel ontwaken</h2>
+        <p>De bekendste van allemaal, ook wel een energieportaal of het teken van de tweelingvlam genoemd. Het geldt als een speciale boodschap dat je contact kunt maken met de opgestegen meesters. Het is een goed moment om een intentie of wens uit te spreken; sommigen lezen er ook een aanmoediging in om even rust te nemen.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">12:12</p>
+      <div>
+        <h2>Een wens doen en groeien</h2>
+        <p>Dé tijd om je stem te verheffen en een wens uit te spreken. Het wijst op persoonlijke groei, wijsheid en een diepe verbondenheid met je spirituele pad.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">13:13</p>
+      <div>
+        <h2>Vernieuwing en moed</h2>
+        <p>Je bent omringd door engelen en lichtwezens. Laat los wat je tegenhoudt en maak de verandering die nodig is: de dromen waar je naar verlangt komen dichterbij.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">14:14</p>
+      <div>
+        <h2>Evenwicht en geduld</h2>
+        <p>Laat los wat je niets oplevert en luister naar je lichaam. Ben je gefrustreerd, dan is dat een teken dat het tijd is voor verandering. In de liefde is het een hoopvol getal: er is nog kans om iets te herstellen.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">15:15</p>
+      <div>
+        <h2>Passie en vrijheid</h2>
+        <p>Stap uit je routine: er komen positieve veranderingen aan en mogelijk een groot nieuw verhaal. In de liefde staat het voor vuur en verlangen; volgens sommigen denkt een ex nog aan je.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">16:16</p>
+      <div>
+        <h2>Opnieuw opbouwen</h2>
+        <p>Soms moet je afbreken om te kunnen herbouwen. Haal negatieve gedachten en oude patronen uit je leven en bouw verder op wat echt bij je past. Het nodigt uit tot innerlijke reflectie en het helen van oude wonden.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">17:17</p>
+      <div>
+        <h2>Hoop en vernieuwing</h2>
+        <p>Je inspanningen gaan vruchten afwerpen en er komt erkenning. Het is een moment om te vernieuwen en je creatieve kant te laten zien. Soms wijst het op spanning in een relatie, met de kans die weer op te knappen.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">18:18</p>
+      <div>
+        <h2>Vertrouw je gevoel</h2>
+        <p>Er zijn vragen zonder antwoord, maar in liefdeszaken weet je diep vanbinnen al wat je moet doen. Het staat ook voor voortgang, voorspoed en het openstellen om te ontvangen.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">19:19</p>
+      <div>
+        <h2>Geduld en vervulling</h2>
+        <p>Maak een plan om obstakels te overwinnen, mediteer en praat met je engel over wat je dwarszit. Het wijst ook op overvloed, het waarmaken van je doelen en iemand bijzonders die op je pad kan komen.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">20:20</p>
+      <div>
+        <h2>Helderheid en wijsheid</h2>
+        <p>Handel met voorzichtigheid en inzicht en neem beslissingen met een heldere kop. De persoon van wie je houdt denkt ook aan jou, en er staan goede dingen te gebeuren.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">21:21</p>
+      <div>
+        <h2>Jouw uur van succes</h2>
+        <p>Mooie dingen staan op het punt te gebeuren. Je krijgt erkenning en goed nieuws, en je loopt in de pas met het universum.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">22:22</p>
+      <div>
+        <h2>Bouwen en harmonie</h2>
+        <p>Vier keer het meestergetal 22: de energie van grote dingen tot stand brengen. Je engel helpt je een project te realiseren, op professioneel, privé- of romantisch gebied. Blijf op je pad; alles wat je gedaan hebt gaat zin krijgen. Een telefoontje van een bijzonder iemand kan volgen.</p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <p class="time">23:23</p>
+      <div>
+        <h2>Nieuwe wegen</h2>
+        <p>Een reis of nieuwe richting dient zich aan, zakelijk of persoonlijk. Blijf in jezelf geloven en onafhankelijk zijn, maar leer ook te luisteren. Het staat voor transformatie en voor tijd nemen voor jezelf.</p>
+      </div>
+    </article>
+  </section>
+</main>
+</body>
+</html>
